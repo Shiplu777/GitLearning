@@ -6,9 +6,10 @@ public class GitExample {
 		
 		String[] Names = {"Shiplu","Nusrat","Noman","Tanjim"};
 		
-		for(int i=0;i<Names.length;i++){
-			System.out.println(Names[i]);
-			System.out.println("Hello Name: "+ Names[i]);
+		for(String name:Names){
+			System.out.println(name);
+			System.out.println("Hello Name: "+ name);
+			System.out.println("Added new Line");
 		}
 
 	}
