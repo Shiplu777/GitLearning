@@ -8,6 +8,7 @@ public class GitExample {
 		
 		for(int i=0;i<Names.length;i++){
 			System.out.println(Names[i]);
+			System.out.println("Hello Name: "+ Names[i]);
 		}
 
 	}
