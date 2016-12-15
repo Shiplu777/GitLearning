@@ -4,7 +4,7 @@ public class GitExample {
 
 	public static void main(String[] args) {
 		
-		String[] Names = {"Shiplu","Nusrat","Noman","Mahmuda","Tanjim"};
+		String[] Names = {"Shiplu","Nusrat","Noman","Tanjim"};
 		
 		for(int i=0;i<Names.length;i++){
 			System.out.println(Names[i]);
